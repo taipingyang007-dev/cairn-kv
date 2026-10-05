@@ -1,0 +1,18 @@
+# 构建产物
+build*/
+cmake-build-*/
+compile_commands.json
+*.o
+*.a
+*.so
+
+# RocksDB 数据目录（W3 之后会有）
+data/
+*.log
+
+# 编辑器
+.vscode/
+.cache/
+.DS_Store
+
+src/a.out
